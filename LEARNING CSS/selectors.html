@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors Example</title>
+  <style>
+    /* Universal selector */
+    * {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ID selector */
+    #main-heading {
+      color: navy;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    /* Element selector */
+    p {
+      color: darkslategray;
+      margin: 10px;
+    }
+
+    /* Class selector */
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    /* Descendant selector */
+    .container p {
+      color: green;
+      font-style: italic;
+    }
+
+    /* Pseudo-class selector */
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-heading">Welcome to My Website</h1>
+
+  <p>This is a normal paragraph.</p>
+
+  <p class="highlight">This paragraph has a special style.</p>
+
+  <div class="container">
+    <p>This is a paragraph inside a div with a class.</p>
+  </div>
+
+  <a href="#">Hover over this link</a>
+
+</body>
+</html>
