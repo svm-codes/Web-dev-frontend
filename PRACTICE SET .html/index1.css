@@ -1,0 +1,38 @@
+*{
+    margin: 0px; padding: 0px;
+}
+nav{
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+   margin-left: 50px;
+    padding: 5px;
+}
+header{
+    background-color: chocolate;
+    height: 30px;
+
+}
+#second{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: chartreuse;
+    display: inline-block;
+}
+#container{
+    border: 4px solid;
+    margin: 5px;
+}
+#box3{
+    position: fixed;
+    right: 15px;
+}
